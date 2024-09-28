@@ -59,7 +59,7 @@ def parse_xml_to_json(xml_string):
 def main():
     # Set up argument parser to allow file path input from terminal
     parser = argparse.ArgumentParser(description="Convert XML lint report to GitLab Code Quality JSON")
-    parser.add_argument("xml_file", help="Path to the XML lint report file")
+    parser.add_argument("xml_file", help="Path to the XML lint report file created with ament_flake8")
     parser.add_argument("output_file", help="Path to the output JSON file")
 
     args = parser.parse_args()
