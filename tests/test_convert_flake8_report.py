@@ -6,7 +6,7 @@ import sys
 # Ensure that the src directory is in the path for imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
-from convert_flake8_report import parse_xml_to_json  # Adjust this import based on your actual function
+from convert_flake8_report.convert_flake8_report import parse_xml_to_json  # Adjust this import based on your actual function
 
 class TestConvertLintReport(unittest.TestCase):
 
