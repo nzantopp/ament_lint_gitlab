@@ -1,2 +1,1 @@
-argparse
-pytest
+setuptools==75.1.0
