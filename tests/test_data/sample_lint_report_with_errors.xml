@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name=".XUNIT_FILE"
+  tests="4"
+  errors="0"
+  failures="4"
+  time="0.037"
+>
+  <testcase
+    name="F401 (test.py:2:1)"
+    classname=".XUNIT_FILE"
+  >
+      <failure message="'os' imported but unused:&#10;import os, sys&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (test.py:2:1)"
+    classname=".XUNIT_FILE"
+  >
+      <failure message="'sys' imported but unused:&#10;import os, sys&#10;"/>
+  </testcase>
+  <testcase
+    name="E401 (test.py:2:10)"
+    classname=".XUNIT_FILE"
+  >
+      <failure message="multiple imports on one line:&#10;import os, sys&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (test.py:4:1)"
+    classname=".XUNIT_FILE"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def my_function():&#10;"/>
+  </testcase>
+  <system-out>Checked files:
+* test.py</system-out>
+</testsuite>

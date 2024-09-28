@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name=".XUNIT_FILE"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.026"
+>
+  <testcase
+    name="flake8"
+    classname=".XUNIT_FILE"/>
+  <system-out>Checked files:
+* test.py</system-out>
+</testsuite>

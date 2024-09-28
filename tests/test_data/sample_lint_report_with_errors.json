@@ -1,0 +1,50 @@
+[
+    {
+      "description": "(F401) 'os' imported but unused:\nimport os, sys\n",
+      "fingerprint": "fa5effd10bada89e4653a94c3546bb63",
+      "location": {
+        "lines": {
+          "begin": 2,
+          "end": 2
+        },
+        "path": "test.py"
+      },
+      "severity": "major"
+    },
+    {
+      "description": "(F401) 'sys' imported but unused:\nimport os, sys\n",
+      "fingerprint": "fa5effd10bada89e4653a94c3546bb63",
+      "location": {
+        "lines": {
+          "begin": 2,
+          "end": 2
+        },
+        "path": "test.py"
+      },
+      "severity": "major"
+    },
+    {
+      "description": "(E401) multiple imports on one line:\nimport os, sys\n",
+      "fingerprint": "dee45457ebdb83b5597a41a9c478dc68",
+      "location": {
+        "lines": {
+          "begin": 2,
+          "end": 2
+        },
+        "path": "test.py"
+      },
+      "severity": "major"
+    },
+    {
+      "description": "(E302) expected 2 blank lines, found 1:\ndef my_function():\n",
+      "fingerprint": "61cdc8f0ebef09bb11645a2041b36c19",
+      "location": {
+        "lines": {
+          "begin": 4,
+          "end": 4
+        },
+        "path": "test.py"
+      },
+      "severity": "major"
+    }
+  ]
