@@ -13,6 +13,8 @@ This tool converts XML lint reports to GitLab Code Quality JSON format.
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/yourusername/convert-lint-report.git
-cd convert-lint-report
+git clone https://github.com/nzantopp/ament_lint_gitlab.git
+cd ament_lint_gitlab
 pip install -r requirements.txt
+pip install .
+```
