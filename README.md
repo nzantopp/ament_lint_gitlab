@@ -18,3 +18,9 @@ cd ament_lint_gitlab
 pip install -r requirements.txt
 pip install .
 ```
+
+## Use
+
+```bash
+convert-flake8-report path/input.xml path/output.json
+```
