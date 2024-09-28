@@ -10,3 +10,4 @@ ament_lint_gitlab.egg-info/
 .ruff_cache/
 .pytest_cache/
 test.json
+build/
